@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+    padding: 20px;
+    font-size: 1.25rem;
+}
+
+input[type="text"] {
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(66, 194, 87);
+}
+
+.container {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+}
+
+.lenght, .volume, .mass {
+    display: flex;
+    justify-content: space-between;
+    width: 760px;
+    margin: 0 auto;
+
+
+}
+
+#upozorenje {
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
